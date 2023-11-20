@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Exemplo com Formulário</h2>
+
+    <form action="#">
+        <label for="nome">Nome : </label><br>
+        <input type="text" id="nome" name="sobrenome">
+        <br>
+        <label for="sobrenome">sobrenome : </label><br>
+        <input type="text" id="sobrenome" name="sobrenome">
+
+        <br><br>
+
+        <input type="radio" name="tecnologias" id="html" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="radio" name="tecnologias" id="css" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="radio" name="tecnologias" id="javascript" value="javascript">
+        <label for="javascript">javascript</label>
+
+        <br><br>
+        <input type="checkbox" id="segunda" name="segunda" value="SEGUNDA">
+        <label for="segunda">Segunda-Feira</label>
+
+        <input type="checkbox" id="terca" name="terca" value="TERCA">
+        <label for="terca">Terca-Feira</label>
+
+        <input type="checkbox" id="quarta" name="quarta" value="Quarta">
+        <label for="quarta">Quarta-Feira</label>
+
+        <input type="checkbox" id="quinta" name="quinta" value="QUINTA">
+        <label for="quinta">Quinta-Feira</label>
+
+        <input type="checkbox" id="sexta" name="sexta" value="SEXTA" checked>
+        <label for="sexta">Sexta-Feira</label>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+        <br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="ruanpablo@gmail.com">
+        <br><br>
+
+        <label for="usuario">Usuario</label><br>
+        <input type="text" id="usuario" placeholder="Dilma">
+
+        <br><br>
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha">
+
+        <br><br>
+        <label for="cor">Selecione uma cor</label>
+        <input type="color" id="cor" name="cor">
+
+        <br><br>
+        <label for="niver">Anicersário</label>
+        <input type="date" name="niver" id="niver">
+
+        <br><br>
+        <label for="dataMax">Data Máxima limite</label>
+        <input type="date" name="dataMax" id="dataMax" max="2023-10-31">
+
+        <br><br>
+        <label for="dataMin">Data Mínima limite</label>
+        <input type="date" name="dataMin" id="dataMin" min="2023-10-01">
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+        <input type="button" value="exibir Alerta" onclick="alert('Arthur fede a bosta!')">
+       
+    </form>
+
+</body>
+
+</html>

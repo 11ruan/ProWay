@@ -1,0 +1,41 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .div-input{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #mes{
+            margin: 1em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-input">
+        <label for="mes">Mes</label>
+        <input type="text" min="0" id="mes">
+        <button type="submit" id="btn">Enviar</button>
+    </div>
+
+    <div id="div-res">
+        
+    </div>
+
+    <script src="ex3.js"></script>
+</body>
+
+</html>
