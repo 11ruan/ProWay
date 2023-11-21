@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, label{
+            width: 25%;
+        }
+        button{
+            margin-top: 10px;
+
+        }
+        header{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Adicionar propriedade</h1>
+    </header>
+    
+    <div>
+        <label for="propriedade">Propriedade</label>
+        <input type="text" id="propriedade">
+
+        <label for="valor">Valor</label>
+        <input type="text" id="valor">
+
+        <button onclick="chamada()">ADICIONAR</button>
+    </div>
+    <script>
+
+
+        const aluno = {
+            nome: 'Ruan',
+            idade: 18,
+            tipo: 'Homem-sexual',
+            endereco: {
+                rua: 'Leopoldo  Holz',
+                num: 211,
+                bairro: 'Velha-Central'
+            }
+        };
+
+
+        function chamada() {
+            let propr = document.querySelector('#propriedade').value;
+            let valor = document.querySelector('#valor').value;
+            aluno[propr] = valor;
+
+            console.log(aluno)
+        }
+    </script>
+
+</body>
+
+</html>

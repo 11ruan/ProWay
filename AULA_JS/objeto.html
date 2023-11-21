@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Exemplo com Objetos</h2>
+
+    <script>
+
+        const aluno = {
+            nome: 'Ruan',
+            idade: 18,
+            tipo: 'Homem-sexual',
+            endereco: {
+                rua: 'Leopoldo  Holz',
+                num: 211,
+                bairro: 'Velha-Central'
+            }
+        };
+
+        console.log(aluno);
+
+        // Declaração uma propriedade para obter o valor
+        console.log(aluno.nome)
+
+        // Acessando as propriedades por nível de Hierarquia
+        console.log(aluno.endereco.rua, aluno.endereco.bairro)
+
+        // Acessando uma propriedade que não existe
+        console.log(aluno.rua)
+
+        // Acessar uma propriedade para alterar o valor
+        aluno.idade = 19;
+        console.log(aluno.idade)
+
+        // Botar uma nova propriedade no objeto
+        aluno.classe = 'Turma A'
+
+        // Acessando propriedades de forma dinâmica
+        console.log(aluno['tipo'])
+
+        console.log(aluno['endereco']['bairro']);
+
+        const prop = 'nome';
+        console.log('Acessando Dinâmico...');
+        console.log(aluno[prop])
+
+        const prop2 = 'periodo';
+        aluno[prop2] = 'Noturno';
+
+        console.log(aluno);
+    </script>
+</body>
+
+</html>
