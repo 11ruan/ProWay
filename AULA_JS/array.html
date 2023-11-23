@@ -27,6 +27,48 @@
         // Imprimindo o tamanho do Vetor
         console.log(cores.length);
 
+        // Manipulando Vetores
+
+        // Inserindo um novo registro no Final do Array
+        cores.push('Laranja', 'roxo', 'preto', 'branco', 'marrom', 'amarelo');
+        console.log(cores.toString());
+
+        cores.unshift('Violeta');
+        console.log(cores.toString());
+
+        // Remover o ultimo elemento
+        cores.pop();
+        console.log(cores.toString());
+
+        // Remove o primeiro elemento
+        cores.shift();
+        console.log(cores.toString());
+
+        // Encontra a Posição de um elemento
+        const posVermelho = cores.indexOf('Vermelho');
+        console.log(`Posição da cor "vermelho" = ${posVermelho}`);
+
+        // Remover um elemento em uma posição específica
+        cores.splice(2, 1);
+        console.log(cores.toString());
+
+        const posRoxo = cores.indexOf('roxo');
+        cores.splice(posRoxo, 1);
+        console.log(cores.toString());
+
+        // Inserindo um elemento em uma posição especifica
+        cores.splice(3, 0, 'roxo');
+        console.log(cores.toString());
+
+        // Alterar um elemento em uma posicao especifica
+        cores.splice(2, 1, 'orange');
+        console.log(cores.toString());
+
+
+
+
+
+
     </script>
 
 </body>

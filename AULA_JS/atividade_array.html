@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Atividade Array</h2>
+
+    <input type="text" id="valor">
+
+
+    <button onclick="final()">final</button>
+    <button onclick="inicio()">inicio</button>
+    <button onclick="retirarFinal()">Retirar Ultimo</button>
+    <button onclick="retirarPrimeiro()">Retirar primeiro</button>
+
+    <script>
+
+
+
+        const cores = []
+
+        cores[0] = 'azul';
+        cores[1] = 'roxo';
+        cores[2] = 'vermelho';
+        cores[3] = 'amarelo';
+
+        console.log(cores.toString());
+
+        function final() {
+            const ultimo = document.getElementById('valor').value
+            cores.push(ultimo)
+            console.log(cores.toString());
+        }
+        function inicio() {
+            const primeiro = document.getElementById('valor').value
+            cores.unshift(primeiro)
+            console.log(cores.toString());
+        }
+        function retirarFinal() {
+            cores.pop()
+            console.log(cores.toString());
+        }
+        function retirarPrimeiro() {
+            cores.shift()
+            console.log(cores.toString());
+        }
+    </script>
+
+</body>
+
+</html>

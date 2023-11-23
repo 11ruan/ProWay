@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Percorrer Vetor</h2>
+
+    <script>
+        //  const produtos = [
+        //      'Notebook', 
+        //      'Mause',
+        //      'Teclado',
+        //      'SSD',
+        //      'Monitor'
+        //  ];
+
+        //  produtos.forEach(function (produto, index) {
+        //      if (index % 2 == 0) {
+        //          console.log(`${produto} - Posição: ${index}`);
+        //      }
+        //  });
+
+        const frutas = [];
+
+        frutas[0] = { nome: 'banana', cor: 'amarelo' };
+        frutas[1] = { nome: 'uva', cor: 'roxo' };
+        frutas[2] = { nome: 'pera', cor: 'amarelo' };
+        frutas[3] = { nome: 'uva', cor: 'verde' };
+
+        retorno = frutas.filter(function (frutas) {
+            return frutas.nome === 'uva';
+        });
+
+        console.log(retorno);
+
+
+
+        // TODOS PRECISAM SER VERDADEIROS PARAR RETORNAR TRUE
+        retorno = frutas.every(function (frutas) {
+            return frutas.cor === 'amarelo';
+        });
+
+        console.log(retorno);
+
+
+
+        // 1 SÓ PRECISAM SER VERDADEIROS PARAR RETORNAR TRUE
+
+        retorno = frutas.some(function (frutas) {
+            return frutas.cor === 'verde';
+        }); 
+
+        console.log(retorno);
+
+
+
+        retorno = frutas.map(function (frutas) {
+            return frutas.cor;
+        });
+
+        console.log(retorno);
+
+    </script>
+
+</body>
+
+</html>
