@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function(){
+
+
+            $('#esconder').click(function(){
+                $('p').hide(2000);
+            });
+
+            $('#exibir').click(function(){
+                $('p').show(2000);
+            });
+
+            $('#interruptor').click(function(){
+                $('p').toggle(1000);
+            });
+            $('#encadear').click(function(){
+                $('p').hide(1000).show(1000);
+            });
+
+        });
+
+    </script>        
+</head>
+<body>
+    
+    <button id="esconder">Esconder Texto</button>
+    <button id="exibir">Exibir Texto</button>
+    <button id="interruptor">Switch Texto</button>
+    <button id="encadear">Encadear / Exibir</button>
+    <br><br>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi inventore veritatis iusto unde consequuntur iure,
+        soluta atque et quam expedita?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi inventore veritatis iusto unde consequuntur iure,
+        soluta atque et quam expedita?
+    </p>
+
+</body>
+</html>

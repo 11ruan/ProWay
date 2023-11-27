@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Atividade Calculadora</h2>
+
+    <input type="text" id="valor1">
+    <input type="text" id="valor2">
+
+    <button onclick="ativar(somar)">Somar</button>
+    <button onclick="ativar(subtrair)">Subtrair</button>
+    <button onclick="ativar(divisao)">Divisão</button>
+    <button onclick="ativar(mult)">multiplicar</button>
+
+    <script>
+
+
+        function somar(a, b) {
+            const resl = (a + b)
+
+            return resl;
+        }
+        function subtrair(a, b) {
+            const resl = (a - b)
+
+            return resl;
+        }
+        function divisao(a, b) {
+            const resl = (a / b)
+
+            return resl;
+        }
+        function mult(a, b) {
+            const resl = (a * b)
+
+            return resl;
+        }
+
+        function ativar(operacao) {
+            const v1 = parseInt(document.getElementById('valor1').value);
+            const v2 = parseInt(document.getElementById('valor2').value);
+
+            const resl = operacao(v1, v2);
+
+            console.log(`o resultado é : ${resl}`);
+
+
+        }
+        // function ativar(subtrair, v1, v2) {
+        //     subtrair(v1, v2)
+        // }
+        // function ativar(divisao, v1, v2) {
+        //     divisao(v1, v2)
+        // }
+        // function ativar(mult, v1, v2) {
+        //     mult(v1, v2)
+        // }
+
+
+    </script>
+
+</body>
+
+</html>

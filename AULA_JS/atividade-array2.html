@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Atividade Array</h2>
+
+    <label for="pos">Posição</label>
+    <input type="text" id="pos">
+
+    <label for="numRem">Quantidade de Removidos</label>
+    <input type="text" id="numRem">
+
+    <label for="novoVa">Valor Novo</label>
+    <input type="text" id="novoVa">
+
+    <button onclick="remove()">Remover</button>
+    <button onclick="add()">Adicionar</button>
+    <button onclick="subs()">Alterar</button>
+
+
+
+
+    <script>
+
+        const aparelhos = []
+
+        aparelhos[0] = 'celular';
+        aparelhos[1] = 'mause';
+        aparelhos[2] = 'teclado';
+        aparelhos[3] = 'fones';
+
+        console.log(aparelhos);
+
+        function remove() {
+            const posi = document.getElementById('pos').value
+            const qntRem = document.getElementById('numRem').value
+            aparelhos.splice(posi, qntRem);
+            console.log(aparelhos);
+        }
+        function add() {
+            const posi = document.getElementById('pos').value
+            const conteudo = document.getElementById('novoVa').value
+            aparelhos.splice(posi, 0, conteudo);
+            console.log(aparelhos);
+        }
+        function subs() {
+            const posi = document.getElementById('pos').value
+            const conteudo = document.getElementById('novoVa').value
+            aparelhos.splice(posi, 1, conteudo);
+            console.log(aparelhos);
+        }
+    </script>
+
+</body>
+
+</html>
