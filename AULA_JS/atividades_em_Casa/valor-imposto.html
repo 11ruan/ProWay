@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="val">
+    <input type="text" id="imp">
+
+    <button onclick="final(conta)">CALCULAR</button>
+
+    <script>
+
+
+        function conta(v, i) {
+            const calc = (v + i)
+            return calc;
+        }
+
+        function final(operacao) {
+            const valor = Number(document.getElementById('val').value)
+            const impos = Number(document.getElementById('imp').value)
+            
+            const calc = operacao(valor, impos)
+
+            console.log(`o resultado é : ${calc}`);
+        }
+
+    </script>
+</body>
+
+</html>

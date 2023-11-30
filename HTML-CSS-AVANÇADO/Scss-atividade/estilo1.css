@@ -1,0 +1,87 @@
+.b1 {
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.b2 {
+  background-color: grey;
+  color: white;
+}
+
+.b3 {
+  background-color: green;
+  color: white;
+}
+
+.b4 {
+  background-color: red;
+  color: white;
+}
+
+.b5 {
+  background-color: yellow;
+  color: black;
+}
+
+.b6 {
+  background-color: cyan;
+  color: black;
+}
+
+.b7 {
+  background-color: white;
+  color: black;
+}
+
+.b8 {
+  background-color: black;
+  color: white;
+}
+
+.b9 {
+  background-color: blue;
+  color: white;
+}
+
+.b10 {
+  background-color: grey;
+  color: white;
+}
+
+div button {
+  border: none;
+  border-radius: 4px;
+}
+
+div button {
+  padding: 7px;
+}
+
+.botoes {
+  margin: 20px;
+}
+
+.botoes button {
+  padding: 12px;
+}
+
+.conteiner {
+  margin: 0 auto;
+  background-color: rgb(216, 216, 216);
+  width: 50%;
+  padding: 15px;
+  border: solid black 6px;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: purple;
+}
+
+div {
+  margin: 10px;
+}/*# sourceMappingURL=estilo1.css.map */

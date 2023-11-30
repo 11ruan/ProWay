@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="salario">Salario:</label>
+    <input type="text" id="salario">
+
+    <label for="aumento">% Aumento:</label>
+    <input type="text" id="aumento">
+
+    <button onclick="botao(novosalario)">Calcular</button>
+
+    <script>
+        function novosalario(a, b) {
+            const mais = (b) * a
+            const re = (a + mais)
+            return re;
+        }
+        function botao(operacao) {
+            const sal = Number(document.getElementById("salario").value)
+            const au = Number(document.getElementById("aumento").value)
+
+            const mais = (au) * sal
+
+            const re = operacao(sal, au)
+
+            console.log("Novo salario: " + re)
+            console.log("Reajuste ganho: " + mais.toFixed(2))
+            console.log("Em percentual: " + au.toFixed(2) + "%")
+        }
+    </script>
+</body>
+
+</html>

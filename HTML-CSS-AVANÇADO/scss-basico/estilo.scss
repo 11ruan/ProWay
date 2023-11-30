@@ -1,0 +1,31 @@
+$Font: 'Segoe UI';
+$ColorPrima: red;
+$ColorSecundaria: blue;
+$textoPequeno: 12px;
+$textoGrande: 20px;
+$larguraMedia: 600px;
+$larguraGrande: 900px;
+$centralizar: center;
+$flex: flex;
+$colunn: column;
+
+// Estilizando os elementos
+body {
+    font-family: $Font;
+}
+
+h2 {
+    color: $ColorSecundaria;
+    font-size: $textoGrande;
+}
+
+p {
+    background-color: $ColorPrima;
+    color: $ColorSecundaria;
+    width: $larguraMedia;
+}
+div{
+    display: $flex;
+    justify-content: $centralizar;
+    flex-direction: $colunn;
+}

@@ -1,0 +1,113 @@
+$corFund: blue;
+$color: white;
+$borda: none;
+$bordaRedonda: 4px;
+$padding: 7px;
+$margem: 20px;
+$width: 50%;
+
+.b1 {
+    border: $borda;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b2 {
+    $corFund: grey;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b3 {
+    $corFund: green;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b4 {
+    $corFund: red;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b5 {
+    $corFund: yellow;
+    $color: black;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b6 {
+    $corFund: cyan;
+    $color: black;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b7 {
+    $corFund: white;
+    $color: black;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b8 {
+    $corFund: black;
+    $color: white;
+    background-color: $corFund;
+    color: $color;
+}
+
+.b9 {
+    background-color: $corFund;
+    color: $color;
+}
+
+.b10 {
+    $corFund: grey;
+    background-color: $corFund;
+    color: $color;
+}
+
+div button {
+    border: $borda;
+    border-radius: $bordaRedonda;
+}
+
+div button {
+    padding: $padding;
+}
+
+.botoes {
+    margin: $margem;
+}
+
+.botoes button {
+    $padding: 12px;
+    padding: $padding;
+}
+
+.conteiner {
+    margin: 0 auto;
+    $corFund: rgb(216, 216, 216);
+    background-color: $corFund;
+    width: $width;
+    padding: 15px;
+    border: solid black 6px;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    $corFund: purple;
+    background-color: $corFund;
+}
+
+div {
+    $margem: 10px;
+    margin: $margem;
+}
