@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primeira {
+  background-color: #363A3D;
+}
+
+.cabecalho {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+.login {
+  margin-left: 18px;
+  margin-right: 28px;
+}
+.login input {
+  border: none;
+  width: 95%;
+  height: 50px;
+  background: #FFF;
+  margin-top: 19px;
+  border-left: #E07D0A solid 10px;
+  padding: 8px;
+}
+
+.login-2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.login-2 .botao {
+  border: none;
+  width: 173px;
+  height: 35px;
+  border-radius: 5px;
+  background: #E07D0A;
+  color: #FFF;
+}
+
+.herdDois {
+  background: #2F6306;
+  display: flex;
+  height: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.h2segunda {
+  font-size: 40px;
+}
+
+p {
+  margin: 40px;
+  font-size: 20px;
+  Font: Inter;
+}
+
+.topo {
+  background-color: #E07D0A;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.listaAlun {
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  text-align: start;
+  padding: 15px;
+}
+
+button {
+  background-color: #2F6306;
+  border: none;
+  border-radius: 4px;
+}
+
+.material-symbols-outlined {
+  color: white;
+  padding: 6px;
+}
+
+.esconder {
+  display: none;
+}
+
+.foto {
+  background-color: #D9D9D9;
+  Width: 181px;
+  Height: 181px;
+  border-radius: 100px;
+  margin: 20px auto;
+}
+
+.perfil .noPer {
+  text-align: center;
+}
+.perfil .estuda {
+  text-align: center;
+  margin: 10px;
+}
+
+.media {
+  width: 50%;
+  border-color: solid #E07D0A 1px;
+}
+
+.not {
+  width: 50%;
+  background-color: #E07D0A;
+}
+
+.notas {
+  display: flex;
+}/*# sourceMappingURL=estilo.css.map */

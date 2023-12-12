@@ -1,0 +1,11 @@
+@import "cores";
+@import "reset";
+
+h2{
+    background-color: $color-primary;
+}
+
+p{
+    background-color: $color-secundary;
+    color: $color-primary;
+}

@@ -1,0 +1,9 @@
+.componenteButton{
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: ;
+    display: flex;
+}

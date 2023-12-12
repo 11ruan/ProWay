@@ -1,0 +1,48 @@
+.informacoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(138, 138, 138);
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: solid 4px black;
+}
+.informacoes label {
+  display: block;
+  margin-top: 10px;
+  padding: 2px;
+}
+.informacoes input {
+  border: solid 1px black;
+  padding: 8px;
+  border-radius: 10px;
+}
+.informacoes .botao {
+  margin-top: 20px;
+  width: 20%;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  border: solid 1px black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.retorn {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  margin: 40px auto;
+  border-radius: 30px;
+  border: solid 4px black;
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+main {
+  background: #D9D9D9;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cima {
+  display: flex;
+  padding: 20px 24px;
+  background: #414041;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.direita {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.curso {
+  color: white;
+  font-size: 20px;
+}
+
+img {
+  margin: 0 15px;
+}
+
+.direita p {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+.direita .nome {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+.direita .material-symbols-outlined {
+  color: white;
+}
+
+.blocoverde {
+  display: flex;
+  background-color: #0D4504;
+  margin-top: 16px;
+  Width: 175px;
+  Height: 484px;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+li {
+  background-color: #2F6306;
+  color: white;
+  padding: 6px 13px;
+}
+
+.separadora {
+  margin: 8px 0;
+}
+
+.liCima {
+  margin-top: 8px;
+}
+
+.fundBranco {
+  width: 100%;
+  height: 484px;
+  background-color: white;
+  margin: 16px;
+}
+
+.junt {
+  display: flex;
+}
+
+.h2 {
+  margin: 40px;
+  border-left: solid 5px #2F6306;
+  padding: 10px;
+  Height: 15px;
+}
+
+p {
+  margin: 0 40px;
+}
+
+.escrever {
+  border: 1px solid #0D4504;
+  width: 1200px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 40px;
+}
+
+.baixo {
+  background-color: black;
+  padding: 30px;
+  display: flex;
+}
+
+.descricao {
+  color: white;
+  text-align: center;
+}
+
+.rdSocial {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  align-items: center;
+}
+
+.escrita {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  width: 50%;
+  align-items: center;
+}
+
+img {
+  width: 35px;
+}
+
+.total-esq {
+  width: 35%;
+  background: #363A3D;
+  height: 100vw;
+}
+
+.h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imagemPC img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.total-dir {
+  background: #2F6306;
+  width: 70%;
+}
+
+.entrada {
+  margin-top: 200px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.entrada label {
+  color: white;
+  display: block;
+}
+
+.entrada input {
+  background: #363A3D;
+  border: none;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.botao {
+  background: #E07D0A;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 30px 0;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.esconder {
+  display: none;
+}
+
+.aquivoCompleto {
+  display: flex;
+}/*# sourceMappingURL=estilo.css.map */

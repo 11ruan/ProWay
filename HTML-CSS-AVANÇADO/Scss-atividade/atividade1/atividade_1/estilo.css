@@ -1,0 +1,68 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+}
+
+.cima {
+  display: flex;
+  flex-direction: row;
+}
+
+.baixo {
+  display: flex;
+  flex-direction: row;
+}
+
+.divb {
+  display: flex;
+  flex-direction: column;
+}
+
+.divb:nth-child(2) {
+  margin: 0 15px;
+}
+
+.cima input {
+  width: 15% px;
+}
+
+.conteiner input {
+  padding: 8px;
+}
+
+.cima {
+  width: 100%;
+}
+.cima divb {
+  width: 33.3%;
+}
+
+.baixo {
+  margin-top: 30px;
+  width: 100%;
+}
+.baixo .divb:first-child {
+  width: 50%;
+}
+.baixo .divb:nth-child(2),
+.baixo .divb:nth-child(3) {
+  width: 25%;
+}
+
+.baixo {
+  margin-bottom: 10px;
+}
+
+.ip7 {
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  width: 50% px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}/*# sourceMappingURL=estilo.css.map */

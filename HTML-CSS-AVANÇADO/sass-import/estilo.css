@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  background-color: orange;
+}
+
+p {
+  background-color: blue;
+  color: orange;
+}/*# sourceMappingURL=estilo.css.map */
